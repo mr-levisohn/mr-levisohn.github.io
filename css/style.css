@@ -4,12 +4,12 @@ body{
 }
 
 .navbar-inverse .navbar-brand{
-    background-color:#2b2b2b;
+/*    background-color:#2b2b2b;*/
     color:#5491bd;
 
 }
 .navbar-inverse .navbar-nav>li>a {
-    background-color:#2b2b2b;
+/*    background-color:#2b2b2b;*/
     color:#5491bd;
 }
 
@@ -211,6 +211,47 @@ footer .nav>li>a:hover {
     color: white;
 
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 220px) and (max-device-width : 480px) {
+
+body{
+    font-size: 11px;
+}
+
+#jumbo4{
+
+color:red;
+margin: 1em;
+  
+}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 480px) and (max-device-width : 767px) {
+body{
+    font-size: 13px;
+}
+#jumbo4{
+
+color:red;
+margin: 1em;
+}
+
+
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+body{
+    font-size: 13px;
+}
+
+
+
+}
                                        /* page 2 */           
 
 /* image slider */
@@ -274,22 +315,13 @@ footer .nav>li>a:hover {
 
 */
 
-#jumbo3{
-    font-size: 1.2em;
-}
+
 
 #jumbo4{
-    font-size: 1.1em;
     border-left: 0.1em solid grey;
     padding-left: 1em;
     padding-right: 1em;
     border-right: 0.1em solid grey;
-
-
-}
-
-#jumbo5{
-    font-size: 1em;
 }
 
 /* menu */
@@ -390,5 +422,6 @@ footer .nav>li>a:hover {
     float: none;
 }
 
+}
 
 
